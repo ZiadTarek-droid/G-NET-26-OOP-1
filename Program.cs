@@ -83,8 +83,36 @@
 
             //car.PrintInfo();
 
-        #endregion
+            #endregion
+
+            #region Q3
+            /*
+             * Steps to Create:
+
+                Open Visual Studio
+
+                 Click Create New Project
+
+                    Choose Class Library (.NET)
+
+                        Name your project
+
+                            Click Create
+            ==========================================
+            Steps to Use It:
+
+              Create another project (Console App)
+
+                    Right-click on the project
+
+                        Select Add → Project Reference
+
+                            Choose the Class Library
+
+                                Now you can use its classes
+             */
+            #endregion
+        }
     }
-}
 
 }
