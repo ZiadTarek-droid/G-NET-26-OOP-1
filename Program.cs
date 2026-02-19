@@ -4,7 +4,58 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Q1
+            /*
+             * Class:
+             * 1:Reference Type
+             * 2:Stored in Heap
+             * 3:Passed by reference
+             * 4:Supports inheritance
+             * ======================================
+             * Struct:
+             * 1:Value Type
+             * 2:Stored in Stack
+             * 3:Passed by value
+             * 4:Does not support inheritance
+             */
+            #region Class Example
+            //class PersonClass
+            //  {
+            //public string Name;
+            //  }
+            #endregion
+
+            #region Struct Example
+            //struct PersonStruct
+            // {
+            //   public string Name;
+            // }
+            #endregion
+
+            // Class (Reference Type)
+            //PersonClass p1 = new PersonClass();
+            //p1.Name = "Ahmed";
+
+            //PersonClass p2 = p1;
+            //p2.Name = "Ali";
+
+            //Console.WriteLine(p1.Name);
+            // Output: Ali
+            // Both variables reference the same object in memory
+
+            // Struct (Value Type)
+            //PersonStruct s1;
+            //s1.Name = "Ahmed";
+
+            //PersonStruct s2 = s1;
+            //s2.Name = "Ali";
+
+            //Console.WriteLine(s1.Name);
+            // Output: Ahmed
+            // A separate copy is created
+            #endregion
+
+
         }
     }
 }
