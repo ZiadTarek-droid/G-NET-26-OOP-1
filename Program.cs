@@ -112,6 +112,20 @@
                                 Now you can use its classes
              */
             #endregion
+
+            #region Q4
+            /*
+             * Definition:
+               A Class Library is a project that contains reusable classes and methods.
+            ==========================================
+            Why we use it:
+            1:Code reusability
+            2:Better project organization
+            3:Separation of concerns
+            4:Easier maintenance
+            5:Cleaner architecture
+             */
+            #endregion
         }
     }
 
