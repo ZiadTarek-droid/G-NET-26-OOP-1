@@ -55,7 +55,36 @@
             // A separate copy is created
             #endregion
 
+            #region Q2
+            // Public:
+            //Accessible from anywhere in the program.
+            // Private:
+            //Accessible only inside the same class.
 
-        }
+            //class Car
+            //{
+            //public string Brand;     // Accessible outside
+            //private double Price;    // Not accessible outside
+
+            //public void SetPrice(double price)
+            //{
+            //Price = price;
+            //}
+
+            //public void PrintInfo()
+            //{
+            //Console.WriteLine($"Brand: {Brand}");
+            //Console.WriteLine($"Price: {Price}");
+            //}
+            //}
+            //Car car = new Car();
+            //car.Brand = "BMW";
+            //car.SetPrice(500000);
+
+            //car.PrintInfo();
+
+        #endregion
     }
+}
+
 }
